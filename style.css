@@ -6,7 +6,7 @@ body{
 .name-color{
     color: blueviolet;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 
@@ -37,4 +37,7 @@ section{
 background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
+}
+.last-section{
+    color: sandybrown;
 }
