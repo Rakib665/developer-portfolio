@@ -38,30 +38,35 @@ background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
 }
-.last-section{
-    color: sandybrown;
-}
-.experience-item{
-    width: 40%;
-    box-shadow: 10px 10px 40px grey;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-   
-
-}
-.experiences-section{
-    background-image: url(images/exp-bg.png);
-    background-position: left;
+.experience-area{
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    width: 100%;
 }
-#web-dev-item{
-    border-left: 7px solid ;
-    border-image: linear-gradient(blue cyan);
-    border-image-slice: 1;
+.experience-area h3{
+    color: orange;
 }
-#baby-dev-item{
-    border-left: 7px solid ;
-    border-image: linear-gradient(blue cyan);
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    width: 40%;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    width: 40%;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
 }
