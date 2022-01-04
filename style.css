@@ -1,0 +1,33 @@
+body{
+    font-family: 'The Nautigal', cursive;;
+    font-size: 25px;
+    margin: 0;
+}
+.name-color{
+    color: blueviolet;
+}
+section{
+    display: flex;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%
+
+}
+.half-width button{
+    padding: 15px 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.half-width button a{
+    text-decoration: none;
+}
+.half-width img{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
