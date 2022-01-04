@@ -41,3 +41,27 @@ background-position: right;
 .last-section{
     color: sandybrown;
 }
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+   
+
+}
+.experiences-section{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#web-dev-item{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#baby-dev-item{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
